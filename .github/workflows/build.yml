@@ -5,12 +5,9 @@
   'NODE_VERSION': '16'
 
 'on':
-  'workflow_dispatch':
-  'push':
-    'branches':
-    - '*'
-    'tags':
-    - 'v*'
+  schedule:
+    - cron: '21 3 * * 5'
+  workflow_dispatch:
   
 
 'jobs':
