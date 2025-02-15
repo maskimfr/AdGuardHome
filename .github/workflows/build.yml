@@ -5,13 +5,13 @@
   'NODE_VERSION': '16'
 
 'on':
+  'workflow_dispatch':
   'push':
     'branches':
     - '*'
     'tags':
     - 'v*'
-  'pull_request':
-  'workflow_dispatch':
+  
 
 'jobs':
   'test':
