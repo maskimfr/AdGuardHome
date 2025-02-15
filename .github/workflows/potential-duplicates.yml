@@ -1,8 +1,5 @@
 'name': 'potential-duplicates'
-'on':
-    'issues':
-        'types':
-          - 'opened'
+
 'jobs':
     'run':
         'runs-on': 'ubuntu-latest'
