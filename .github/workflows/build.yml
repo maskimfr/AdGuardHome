@@ -5,9 +5,9 @@
   'NODE_VERSION': '16'
 
 'on':
-  schedule:
-    - cron: '21 3 * * 5'
-  workflow_dispatch:
+  'schedule':
+    - 'cron': '21 3 * * 5'
+  'workflow_dispatch':
   
 
 'jobs':
